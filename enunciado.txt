@@ -1,0 +1,46 @@
+Proyecto: Gestor de Contenido Dinámico
+Descripción: El objetivo de este proyecto es desarrollar una aplicación web que permita a los
+usuarios crear, editar y eliminar contenido dinámico. El contenido puede ser cualquier tipo de
+elemento, como notas, tarjetas, eventos, etc. La aplicación debe permitir a los usuarios
+interactuar con el contenido de manera intuitiva y realizar cambios en tiempo real.
+Requisitos Funcionales:
+1. Creación de Contenido:
+Los usuarios deben poder agregar nuevos elementos de contenido con un título y
+descripción.
+Debe ser posible seleccionar el tipo de contenido que se está creando (nota, tarjeta,
+evento, etc.).
+2. Edición de Contenido:
+Los usuarios deben poder editar el título y la descripción de los elementos de
+contenido existentes.
+Debe ser posible cambiar el tipo de contenido de un elemento (por ejemplo, convertir
+una nota en un evento).
+3. Eliminación de Contenido:
+Los usuarios deben poder eliminar elementos de contenido que ya no necesiten.
+4. Visualización Dinámica:
+Los elementos de contenido deben mostrarse dinámicamente en la página a medida
+que se agregan, editan o eliminan.
+Los cambios en el contenido deben reflejarse en tiempo real sin necesidad de recargar
+la página.
+5. Almacenamiento Local:
+Los datos de los elementos de contenido deben persistir en el almacenamiento local
+para que los usuarios puedan acceder a ellos en futuras visitas.
+Requisitos Técnicos:
+1. Utilizar HTML, CSS y JavaScript para el desarrollo de la aplicación. (Se puede utilizar un
+framework CSS si se prefiere).
+2. Manipular el DOM para reflejar los cambios en el contenido de la página de manera
+dinámica.
+3. Implementar eventos para capturar las acciones del usuario, como agregar, editar y
+eliminar elementos de contenido.
+4. Utilizar localStorage para almacenar y recuperar datos de los elementos de contenido.
+Entregables:
+Los alumnos deben entregar el proyecto en forma de archivos HTML, CSS y JavaScript. Deben
+crear un repositorio en una plataforma de control de versiones (como GitHub) y compartir la
+URL del repositorio en la plataforma Moodle.
+Evaluación:
+Los proyectos serán evaluados en función de su funcionalidad, usabilidad y la correcta
+implementación de los conceptos de DOM, eventos y localStorage. También se evaluará la
+calidad del código y la claridad de los comentarios.
+Este proyecto permitirá a los alumnos demostrar su capacidad para crear una aplicación
+interactiva que aproveche los conceptos y técnicas que han aprendido en el módulo de
+Desarrollo Web en Entorno Cliente. Además, les proporcionará una oportunidad para
+desarrollar habilidades de resolución de problemas y diseño de interfaces de usuario.

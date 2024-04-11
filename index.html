@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto DOM</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--
+            Notas
+            Recordatorio
+            Eventos
+            Todos con Titulo y Descripcion
+            Select (nota, recordatorio o evento)
+            Boton para eliminar
+        -->
+
+        <h3>Bienvenido a tu panel</h3>
+
+        <div id="addForm">
+            <h4 id="header">Agregar</h4>
+            <form>
+                <label>Titulo:</label>
+                <input type="text" id="titulo" required>
+                <label>Descripcion:</label>
+                <input type="text" id="descripcion" required>
+                <label>Tipo:</label>
+                <select id="tipo" required>
+                    <option value="Nota" selected>Nota</option>
+                    <option value="Recordatorio">Recordatorio</option>
+                    <option value="Evento">Evento</option>
+                </select>
+                <button id="add" class="add">Añadir</button>
+            </form>
+        </div>
+
+            <div style="float: left; margin-left: 10px;">
+                <h4>Notas</h4>
+                <ul id="notas"></ul>
+            </div>
+            <div style="float: left; margin-left: 10px;">
+                <h4>Recordatorios</h4>
+                <ul id="recordatorios"></ul>
+            </div>
+            <div style="float: left; margin-left: 10px;">
+                <h4>Eventos</h4>
+                <ul id="eventos"></ul>
+            </div>
+        
+        </table>
+    <script src="index.js"></script>
+    </body>
+</html>
