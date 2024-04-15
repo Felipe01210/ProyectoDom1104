@@ -1,6 +1,6 @@
 const add = document.getElementById("add");
 const addForm = document.getElementById("addForm");
-const header = document.getElementById("header")
+const header = document.getElementById("header");
 
 const titulo = document.getElementById("titulo");
 const descripcion = document.getElementById("descripcion");

@@ -1,0 +1,20 @@
+{
+    "notas" : [
+        {
+            "titulo": "Sin huevos",
+            "descripcion": "Me he quedado sin huevos"
+        }
+    ],
+    "recordatorios" : [
+        {
+            "titulo": "Comprar huevos",
+            "descripcion": "Que no se me olvide comprar huevos"
+        }
+    ],
+    "eventos" : [
+        {
+            "titulo": "Cita mercadona",
+            "descripcion": "El viernes a las 2, Mari Carmen me vende los huevos"
+        }
+    ]
+}
